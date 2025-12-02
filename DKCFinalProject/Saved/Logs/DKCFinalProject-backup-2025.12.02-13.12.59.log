@@ -24,8 +24,6 @@ LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
 LogCsvProfiler: Display: Metadata set : ltoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" "C:\CGT 245 Final Project\CGT245FinalProject1\DKCFinalProject\DKCFinalProject.uproject" -AUTH_LOGIN=unused -AUTH_PASSWORD=cbaa823247dd4cd3b72697e48d45dfa6 -AUTH_TYPE=exchangecode -epicapp=UE_5.3 -epicenv=Prod -EpicPortal -epicusername=Jixalien -epicuserid=6e9ff73a4d5d4c0b8bb445b660490754 -epiclocale=en -epicsandboxid=ue""
-LogCsvProfiler: Display: Metadata set : loginid="1e5c24ea4d88637d4e916db8d5671a0a"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 0.637943
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
