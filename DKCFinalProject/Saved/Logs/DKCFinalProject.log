@@ -1078,3 +1078,4 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.12.04-07.47.22:226][  0]LogPython: Using Python 3.9.7
 [2025.12.04-07.47.23:304][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
 [2025.12.04-07.49.26:466][  0]LogDerivedDataCache: C:/Users/maxki/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.153 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4517 files in 6254 folders with total size 665 MiB.
+[2025.12.04-08.49.27:775][  0]LogDerivedDataCache: C:/Users/maxki/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.897 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4538 files in 6285 folders with total size 665 MiB.
