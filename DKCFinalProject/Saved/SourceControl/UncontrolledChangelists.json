@@ -5,6 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Maps/MAP_2D.umap",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Maps/DKLevel.umap",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_Enemy.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Input/Actions/IA_Attack.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Input/Actions/IA_Sprint.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/Enemies/Basic_Enemy.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/Enemies/Animations/BasicEnemyBlendSpace.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/Enemies/Animations/BasicEnemyAI.uasset",
+				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Music/retro-arcade-game-music-297305.uasset",
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/StarterContent/Audio/Collapse01.uasset",
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Maps/DKLevel.umap",
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/LoseScreen.uasset",
@@ -20,13 +33,7 @@
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/Enemies/Animations/BasicEnemyAI.uasset",
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/Enemies/Basic_Enemy.uasset",
 				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/BP_Barrel.uasset",
-				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Maps/MAP_2D.umap",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/Maps/DKLevel.umap",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Input/IMC_Default.uasset",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_Enemy.uasset",
-				"C:/Users/maxki/Documents/GitHub/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Input/Actions/IA_Attack.uasset"
+				"C:/CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
