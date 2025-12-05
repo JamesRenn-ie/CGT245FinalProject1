@@ -3445,4 +3445,369 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.12.05-13.10.03:857][940]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 978.112000
 [2025.12.05-13.10.03:916][947]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.05-13.10.03:916][947]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 978.162048, Update Interval: 312.652985
+<<<<<<< HEAD
 >>>>>>> 521929c (Barrels Despawn on hitting the ground.)
+=======
+[2025.12.05-13.15.07:229][235]LogViewport: Scene viewport resized to 1139x735, mode Windowed.
+[2025.12.05-13.15.31:668][145]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1305.854248
+[2025.12.05-13.15.31:742][154]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.05-13.15.31:743][154]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1305.921387, Update Interval: 339.063080
+[2025.12.05-13.16.17:932][133]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.17:932][133]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.17:934][133]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_0
+[2025.12.05-13.16.17:935][133]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_0
+[2025.12.05-13.16.19:384][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.19:384][294]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.19:386][294]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_1
+[2025.12.05-13.16.19:387][294]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_1
+[2025.12.05-13.16.21:215][509]Cmd: DELETE
+[2025.12.05-13.16.21:215][509]Cmd: ACTOR DELETE
+[2025.12.05-13.16.21:217][509]LogEditorActor: Deleted Actor: BP_Barrel_C
+[2025.12.05-13.16.21:229][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.12.05-13.16.21:233][509]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2025.12.05-13.16.44:361][237]BlueprintLog: New page: Compile BP_Barrel
+[2025.12.05-13.16.44:382][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.12.05-13.16.45:816][397]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.05-13.16.45:894][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Barrel" FILE="../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/BP_Barrel.uasset" SILENT=true
+[2025.12.05-13.16.45:901][397]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Barrel
+[2025.12.05-13.16.45:901][397]LogSavePackage: Moving '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/BP_Barrel589B3CBB45B9379144F3F4ACF8DACDCC.tmp' to '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Content/Blueprints/BP_Barrel.uasset'
+[2025.12.05-13.16.45:911][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 347 ms)
+[2025.12.05-13.16.45:913][397]AssetCheck: New page: Asset Save: BP_Barrel
+[2025.12.05-13.16.45:913][397]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel
+[2025.12.05-13.16.54:278][997]Cmd: DELETE
+[2025.12.05-13.16.54:278][997]Cmd: ACTOR DELETE
+[2025.12.05-13.16.54:280][997]LogEditorActor: Deleted Actor: BP_Barrel_C
+[2025.12.05-13.16.54:289][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.05-13.16.54:293][997]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2025.12.05-13.16.56:226][225]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:226][225]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:235][226]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:235][226]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:243][227]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:243][227]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:252][228]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:252][228]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:260][229]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:260][229]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:267][230]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:267][230]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:276][231]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:276][231]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:284][232]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:284][232]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:293][233]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:293][233]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:300][234]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:301][234]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:325][235]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:325][235]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:333][236]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:333][236]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_2
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.16.56:342][237]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:342][237]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:349][238]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:349][238]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:358][239]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:358][239]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:366][240]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:366][240]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.56:374][241]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.16.56:374][241]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_2
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.16.57:122][308]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.57:122][308]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.57:123][308]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_2
+[2025.12.05-13.16.57:124][308]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_2
+[2025.12.05-13.16.58:942][518]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.58:942][518]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Barrel.BP_Barrel_C
+[2025.12.05-13.16.58:945][518]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_4
+[2025.12.05-13.16.58:946][518]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Barrel.BP_Barrel as actor: BP_Barrel_C /Game/Maps/DKLevel.DKLevel:PersistentLevel.BP_Barrel_C_4
+[2025.12.05-13.17.14:553][199]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.05-13.17.14:564][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.05-13.17.14:564][199]PIE: New page: PIE session: DKLevel (Dec 5, 2025, 3:17:14 AM)
+[2025.12.05-13.17.14:564][199]LogPlayLevel: Display: Creating online subsystem for client :Context_16
+[2025.12.05-13.17.14:566][199]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.12.05-13.17.14:575][200]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.05-13.17.14:579][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003806s)
+[2025.12.05-13.17.14:579][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DKLevel.DKLevel to /Game/Maps/UEDPIE_0_DKLevel.DKLevel (0.003846s)
+[2025.12.05-13.17.14:594][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.12.05-13.17.14:596][200]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.12.05-13.17.14:596][200]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.12.05-13.17.14:597][200]LogAIModule: Creating AISystem for world DKLevel
+[2025.12.05-13.17.14:597][200]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2025.12.05-13.17.14:597][200]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.05-13.17.14:597][200]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.05-13.17.14:597][200]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.05-13.17.14:598][200]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.05-13.17.14:598][200]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.05-13.17.14:598][200]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.05-13.17.14:600][200]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.05-13.17.14:639][200]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.12.05-13.17.14:639][200]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.05-13.17.14:639][200]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.05-13.17.14:639][200]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.05-13.17.14:639][200]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.12.05-13.17.14:639][200]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.12.05-13.17.14:642][200]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.12.05-13.17.14:642][200]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.12.05-13.17.14:642][200]LogInit: FAudioDevice initialized with ID 5.
+[2025.12.05-13.17.14:642][200]LogAudio: Display: Audio Device (ID: 5) registered with world 'DKLevel'.
+[2025.12.05-13.17.14:642][200]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.05-13.17.14:645][200]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.05-13.17.14:646][200]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DKLevel.DKLevel up for play (max tick rate 0) at 2025.12.05-08.17.14
+[2025.12.05-13.17.14:646][200]LogWorld: Bringing up level for play took: 0.000873
+[2025.12.05-13.17.14:649][200]LogMediaAssets: Error: Failed to validate media source retro-arcade-game-music-297305 (file://C:/Users/maxki/Downloads/retro-arcade-game-music-297305.mp3)
+[2025.12.05-13.17.14:649][200]LogMediaPlate: Warning: Could not play anything.
+[2025.12.05-13.17.14:649][200]PIE: Server logged in
+[2025.12.05-13.17.14:650][200]PIE: Play in editor total start time 0.088 seconds.
+[2025.12.05-13.17.25:744][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.05-13.17.25:744][517]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.05-13.17.25:744][517]LogWorld: UWorld::CleanupWorld for DKLevel, bSessionEnded=true, bCleanupResources=true
+[2025.12.05-13.17.25:745][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.05-13.17.25:748][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.05-13.17.25:751][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.05-13.17.25:757][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.05-13.17.25:757][517]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.05-13.17.25:757][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.12.05-13.17.25:759][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.12.05-13.17.25:765][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.12.05-13.17.25:833][519]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.12.05-13.18.07:551][471]LogViewport: Scene viewport resized to 1139x735, mode Windowed.
+[2025.12.05-13.21.41:408][911]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1675.523926
+[2025.12.05-13.21.41:483][920]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.05-13.21.41:483][920]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1675.590942, Update Interval: 305.141754
+[2025.12.05-13.22.23:744][756]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.12.05-13.22.23:785][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.12.05-13.22.27:429][143]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.05-13.22.27:437][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.05-13.22.27:437][143]PIE: New page: PIE session: DKLevel (Dec 5, 2025, 3:22:27 AM)
+[2025.12.05-13.22.27:465][143]LogPlayLevel: Display: Creating online subsystem for client :Context_17
+[2025.12.05-13.22.27:467][143]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.12.05-13.22.27:476][144]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.05-13.22.27:479][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003522s)
+[2025.12.05-13.22.27:479][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DKLevel.DKLevel to /Game/Maps/UEDPIE_0_DKLevel.DKLevel (0.003561s)
+[2025.12.05-13.22.27:486][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.12.05-13.22.27:489][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.12.05-13.22.27:489][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.12.05-13.22.27:490][144]LogAIModule: Creating AISystem for world DKLevel
+[2025.12.05-13.22.27:490][144]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2025.12.05-13.22.27:490][144]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.05-13.22.27:490][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.05-13.22.27:490][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.05-13.22.27:491][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.05-13.22.27:491][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.05-13.22.27:491][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.05-13.22.27:492][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.05-13.22.27:533][144]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.12.05-13.22.27:533][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.05-13.22.27:533][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.05-13.22.27:533][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.05-13.22.27:535][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.12.05-13.22.27:535][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.12.05-13.22.27:537][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.12.05-13.22.27:537][144]LogInit: FAudioDevice initialized with ID 6.
+[2025.12.05-13.22.27:537][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.12.05-13.22.27:537][144]LogAudio: Display: Audio Device (ID: 6) registered with world 'DKLevel'.
+[2025.12.05-13.22.27:537][144]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.05-13.22.27:540][144]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.05-13.22.27:541][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DKLevel.DKLevel up for play (max tick rate 0) at 2025.12.05-08.22.27
+[2025.12.05-13.22.27:541][144]LogWorld: Bringing up level for play took: 0.001096
+[2025.12.05-13.22.27:544][144]LogMediaAssets: Error: Failed to validate media source retro-arcade-game-music-297305 (file://C:/Users/maxki/Downloads/retro-arcade-game-music-297305.mp3)
+[2025.12.05-13.22.27:544][144]LogMediaPlate: Warning: Could not play anything.
+[2025.12.05-13.22.27:544][144]PIE: Server logged in
+[2025.12.05-13.22.27:545][144]PIE: Play in editor total start time 0.108 seconds.
+[2025.12.05-13.22.30:357][473]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.12.05-13.22.30:357][473]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.12.05-13.22.31:664][630]Cmd: quit
+[2025.12.05-13.22.31:665][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.05-13.22.31:665][630]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.05-13.22.31:697][630]LogWorld: UWorld::CleanupWorld for DKLevel, bSessionEnded=true, bCleanupResources=true
+[2025.12.05-13.22.31:697][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.05-13.22.31:700][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.05-13.22.31:702][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.05-13.22.31:709][630]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.05-13.22.31:709][630]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.12.05-13.22.31:709][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.12.05-13.22.31:711][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.12.05-13.22.31:715][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.05-13.22.31:717][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.12.05-13.22.31:765][631]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.12.05-13.24.06:466][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.12.05-13.24.06:487][ 11]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/DKLevel_Auto2
+[2025.12.05-13.24.06:487][ 11]LogSavePackage: Moving '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/DKLevel_Auto22A0984764B1FF0E0A0238B9DBBA5BD56.tmp' to '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Maps/DKLevel_Auto2.umap'
+[2025.12.05-13.24.06:489][ 11]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Maps/DKLevel_Auto2.umap is in the /Temp path, will not scan.
+[2025.12.05-13.24.06:489][ 11]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/DKLevel' took 0.031
+[2025.12.05-13.24.06:490][ 11]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.031
+[2025.12.05-13.24.06:490][ 11]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.12.05-13.24.06:782][ 11]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.12.05-13.24.06:782][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.12.05-13.24.06:807][ 11]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2
+[2025.12.05-13.24.06:807][ 11]LogSavePackage: Moving '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/BP_ThirdPersonCharacter_Auto211A8F2CC49CE52E7A5DE938B9F023067.tmp' to '../../../../../../CGT 245 Final Project/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto2.uasset'
+[2025.12.05-13.24.06:807][ 11]LogFileHelpers: Auto-saving content packages took 0.318
+[2025.12.05-13.27.11:047][633]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2025.12.05-13.27.11:089][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.12.05-13.27.45:703][637]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2039.777222
+[2025.12.05-13.27.46:704][640]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.05-13.27.46:704][640]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2040.443970, Update Interval: 322.696625
+[2025.12.05-13.28.11:052][927]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:052][927]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_3
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.28.11:061][928]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:061][928]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_3
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.28.11:069][929]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:069][929]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_3
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.28.11:077][930]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:077][930]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_3
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.28.11:086][931]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:086][931]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	LoseScreen_C /Game/Maps/DKLevel.DKLevel:LoseScreen_C_3
+	Function /Game/Blueprints/LoseScreen.LoseScreen_C:ExecuteUbergraph_LoseScreen:0091
+[2025.12.05-13.28.11:094][932]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:094][932]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.11:102][933]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:102][933]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.11:110][934]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:110][934]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.11:119][935]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.11:119][935]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.20:306][155]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.12.05-13.28.20:356][155]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.12.05-13.28.20:362][155]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.12.05-13.28.20:374][156]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.12.05-13.28.20:734][182]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.20:734][182]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.20:742][183]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.20:742][183]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.20:751][184]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.20:751][184]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:314][ 85]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2025.12.05-13.28.28:319][ 85]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.12.05-13.28.28:561][114]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:561][114]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:570][115]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:570][115]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:579][116]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:579][116]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:587][117]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:587][117]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:595][118]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:595][118]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:604][119]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:604][119]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:612][120]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:612][120]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:621][121]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:621][121]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:629][122]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:629][122]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	WinScreen_C /Game/Maps/DKLevel.DKLevel:WinScreen_C_3
+	Function /Game/Blueprints/WinScreen.WinScreen_C:ExecuteUbergraph_WinScreen:0091
+[2025.12.05-13.28.28:637][123]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:646][124]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:654][125]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:662][126]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:671][127]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:679][128]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:687][129]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:696][130]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:704][131]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:712][132]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:720][133]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:729][134]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:737][135]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:746][136]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:774][137]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:784][138]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:794][139]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:803][140]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:814][141]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:823][142]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.28:833][143]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2025.12.05-13.28.30:216][304]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/NewBlueprint.NewBlueprint
+[2025.12.05-13.28.30:217][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.12.05-13.28.30:217][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.12.05-13.28.30:333][304]LogViewport: Scene viewport resized to 1139x735, mode Windowed.
+[2025.12.05-13.29.07:346][381]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+>>>>>>> 3a4845a (Log)
