@@ -4430,3 +4430,31 @@ UnknownFunction []
 [2025.12.06-22.31.31:958][678]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3218.831055
 [2025.12.06-22.31.32:051][684]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.06-22.31.32:051][684]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3218.909180, Update Interval: 338.925751
+[2025.12.06-22.31.57:482][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.12.06-22.31.59:789][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/DKLevel_Auto3
+[2025.12.06-22.31.59:810][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/DKLevel_Auto3DABF15D642066DDD2F05AEAFCDA685D2.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Maps/DKLevel_Auto3.umap'
+[2025.12.06-22.31.59:855][779]LogAssetRegistry: Warning: ScanPathsSynchronous: W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Maps/DKLevel_Auto3.umap is in the /Temp path, will not scan.
+[2025.12.06-22.31.59:858][779]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/DKLevel' took 2.392
+[2025.12.06-22.31.59:858][779]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 2.392
+[2025.12.06-22.31.59:866][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Interchange/gltf/M_Default] ([1] browsable assets)...
+[2025.12.06-22.31.59:866][779]OBJ SavePackage: Finished generating thumbnails for package [/Interchange/gltf/M_Default]
+[2025.12.06-22.32.01:225][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Interchange/gltf/M_Default_Auto3
+[2025.12.06-22.32.01:225][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/M_Default_Auto3B657376241C5961F03CC8E9F77CCE268.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Interchange/gltf/M_Default_Auto3.uasset'
+[2025.12.06-22.32.01:253][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Fab/Albert_7___VGDC/material] ([1] browsable assets)...
+[2025.12.06-22.32.01:253][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Fab/Albert_7___VGDC/material]
+[2025.12.06-22.32.01:334][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Fab/Albert_7___VGDC/material_Auto3
+[2025.12.06-22.32.01:334][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/material_Auto3836DCDBD49CC08BFB8C81BA909AB6962.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Fab/Albert_7___VGDC/material_Auto3.uasset'
+[2025.12.06-22.32.01:373][779]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Fab/Materials/Standard/M_MS_Base] ([1] browsable assets)...
+[2025.12.06-22.32.01:373][779]OBJ SavePackage: Finished generating thumbnails for package [/Fab/Materials/Standard/M_MS_Base]
+[2025.12.06-22.32.02:276][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Fab/Materials/Standard/M_MS_Base_Auto3
+[2025.12.06-22.32.02:276][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/M_MS_Base_Auto346C11E2442517513E198B9B03692A821.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Fab/Materials/Standard/M_MS_Base_Auto3.uasset'
+[2025.12.06-22.32.02:306][779]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/imported/BP_Platform] ([2] browsable assets)...
+[2025.12.06-22.32.02:306][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/imported/BP_Platform]
+[2025.12.06-22.32.02:634][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/imported/BP_Platform_Auto3
+[2025.12.06-22.32.02:635][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/BP_Platform_Auto336C5593349D6207EDE6B91B8BBB03092.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Blueprints/imported/BP_Platform_Auto3.uasset'
+[2025.12.06-22.32.02:667][779]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/imported/BP_door] ([2] browsable assets)...
+[2025.12.06-22.32.02:839][779]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/imported/BP_door.BP_door]
+[2025.12.06-22.32.02:840][779]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/imported/BP_door]
+[2025.12.06-22.32.03:197][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/imported/BP_door_Auto3
+[2025.12.06-22.32.03:198][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/BP_door_Auto3B119E5B84E4F06E817DF8BB3182BD502.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Blueprints/imported/BP_door_Auto3.uasset'
+[2025.12.06-22.32.03:229][779]LogFileHelpers: Auto-saving content packages took 3.371
