@@ -4458,3 +4458,127 @@ UnknownFunction []
 [2025.12.06-22.32.03:197][779]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/imported/BP_door_Auto3
 [2025.12.06-22.32.03:198][779]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/BP_door_Auto3B119E5B84E4F06E817DF8BB3182BD502.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/Autosaves/Game/Blueprints/imported/BP_door_Auto3.uasset'
 [2025.12.06-22.32.03:229][779]LogFileHelpers: Auto-saving content packages took 3.371
+[2025.12.06-22.36.54:062][372]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.06-22.36.54:149][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.06-22.36.54:149][372]PIE: New page: PIE session: DKLevel (Dec 6, 2025, 12:36:54 PM)
+[2025.12.06-22.36.54:183][372]LogPlayLevel: Display: Creating online subsystem for client :Context_58
+[2025.12.06-22.36.54:186][372]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.12.06-22.36.54:205][373]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.06-22.36.54:217][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011992s)
+[2025.12.06-22.36.54:217][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DKLevel.DKLevel to /Game/Maps/UEDPIE_0_DKLevel.DKLevel (0.012053s)
+[2025.12.06-22.36.54:234][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.12.06-22.36.54:235][373]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.12.06-22.36.54:235][373]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.12.06-22.36.54:236][373]LogAIModule: Creating AISystem for world DKLevel
+[2025.12.06-22.36.54:236][373]LogPlayLevel: PIE: World Init took: (0.001145s)
+[2025.12.06-22.36.54:236][373]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.06-22.36.54:236][373]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.06-22.36.54:236][373]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.06-22.36.54:237][373]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.06-22.36.54:237][373]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.06-22.36.54:237][373]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.06-22.36.54:239][373]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.06-22.36.54:296][373]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2025.12.06-22.36.54:296][373]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.06-22.36.54:296][373]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.06-22.36.54:296][373]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.06-22.36.54:297][373]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.12.06-22.36.54:297][373]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2025.12.06-22.36.54:299][373]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.12.06-22.36.54:299][373]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.12.06-22.36.54:299][373]LogInit: FAudioDevice initialized with ID 45.
+[2025.12.06-22.36.54:299][373]LogAudio: Display: Audio Device (ID: 45) registered with world 'DKLevel'.
+[2025.12.06-22.36.54:299][373]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.12.06-22.36.54:302][373]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.06-22.36.54:310][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DKLevel.DKLevel up for play (max tick rate 0) at 2025.12.06-17.36.54
+[2025.12.06-22.36.54:311][373]LogWorld: Bringing up level for play took: 0.005992
+[2025.12.06-22.36.54:316][373]LogMediaAssets: Error: Failed to validate media source retro-arcade-game-music-297305 (file://C:/Users/maxki/Downloads/retro-arcade-game-music-297305.mp3)
+[2025.12.06-22.36.54:316][373]LogMediaPlate: Warning: Could not play anything.
+[2025.12.06-22.36.54:319][373]PIE: Server logged in
+[2025.12.06-22.36.54:320][373]PIE: Play in editor total start time 0.173 seconds.
+[2025.12.06-22.37.00:594][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.06-22.37.00:595][863]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.06-22.37.00:595][863]LogWorld: UWorld::CleanupWorld for DKLevel, bSessionEnded=true, bCleanupResources=true
+[2025.12.06-22.37.00:596][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.06-22.37.00:600][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.06-22.37.00:606][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.06-22.37.00:620][863]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.06-22.37.00:620][863]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.12.06-22.37.00:620][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.12.06-22.37.00:622][863]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.12.06-22.37.00:628][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.06-22.37.00:633][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.12.06-22.37.00:728][864]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.12.06-22.37.10:813][558]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.06-22.37.13:154][721]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.06-22.37.14:459][822]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2025.12.06-22.37.15:149][874]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.06-22.37.15:203][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.06-22.37.15:203][874]PIE: New page: PIE session: DKLevel (Dec 6, 2025, 12:37:15 PM)
+[2025.12.06-22.37.15:203][874]LogPlayLevel: Display: Creating online subsystem for client :Context_59
+[2025.12.06-22.37.15:205][874]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.12.06-22.37.15:223][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.06-22.37.15:234][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010964s)
+[2025.12.06-22.37.15:234][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/DKLevel.DKLevel to /Game/Maps/UEDPIE_0_DKLevel.DKLevel (0.011010s)
+[2025.12.06-22.37.15:251][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.12.06-22.37.15:253][875]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.12.06-22.37.15:254][875]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.12.06-22.37.15:254][875]LogAIModule: Creating AISystem for world DKLevel
+[2025.12.06-22.37.15:254][875]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2025.12.06-22.37.15:254][875]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.12.06-22.37.15:254][875]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.06-22.37.15:254][875]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.06-22.37.15:255][875]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.06-22.37.15:255][875]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.06-22.37.15:255][875]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.06-22.37.15:255][875]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.06-22.37.15:255][875]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.06-22.37.15:255][875]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.06-22.37.15:255][875]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.06-22.37.15:255][875]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.06-22.37.15:255][875]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.06-22.37.15:257][875]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.06-22.37.15:313][875]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2025.12.06-22.37.15:313][875]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.06-22.37.15:313][875]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.06-22.37.15:313][875]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.06-22.37.15:314][875]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.12.06-22.37.15:314][875]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2025.12.06-22.37.15:316][875]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.12.06-22.37.15:316][875]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.12.06-22.37.15:316][875]LogInit: FAudioDevice initialized with ID 46.
+[2025.12.06-22.37.15:316][875]LogAudio: Display: Audio Device (ID: 46) registered with world 'DKLevel'.
+[2025.12.06-22.37.15:316][875]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.12.06-22.37.15:319][875]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.12.06-22.37.15:327][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_DKLevel.DKLevel up for play (max tick rate 0) at 2025.12.06-17.37.15
+[2025.12.06-22.37.15:328][875]LogWorld: Bringing up level for play took: 0.005765
+[2025.12.06-22.37.15:333][875]LogMediaAssets: Error: Failed to validate media source retro-arcade-game-music-297305 (file://C:/Users/maxki/Downloads/retro-arcade-game-music-297305.mp3)
+[2025.12.06-22.37.15:334][875]LogMediaPlate: Warning: Could not play anything.
+[2025.12.06-22.37.15:336][875]PIE: Server logged in
+[2025.12.06-22.37.15:338][875]PIE: Play in editor total start time 0.137 seconds.
+[2025.12.06-22.37.18:394][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.06-22.37.18:394][145]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_DKLevel
+[2025.12.06-22.37.18:394][145]LogWorld: UWorld::CleanupWorld for DKLevel, bSessionEnded=true, bCleanupResources=true
+[2025.12.06-22.37.18:395][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.06-22.37.18:400][145]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.06-22.37.18:407][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.06-22.37.18:422][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.06-22.37.18:423][145]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.12.06-22.37.18:423][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.12.06-22.37.18:425][145]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.12.06-22.37.18:434][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.12.06-22.37.18:542][146]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.12.06-22.37.24:601][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.06-22.37.24:863][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.12.06-22.37.27:325][289]LogSavePackage: Moving output files for package: /Game/Maps/DKLevel
+[2025.12.06-22.37.27:345][289]LogSavePackage: Moving 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Saved/DKLevelF08202DA49F7725A079089B6DD640BE2.tmp' to 'W:/My Documents/Unreal Projects/DKCFinalProject/CGT245FinalProject1/DKCFinalProject/Content/Maps/DKLevel.umap'
+[2025.12.06-22.37.27:466][289]LogFileHelpers: Saving map 'DKLevel' took 2.803
+[2025.12.06-22.37.27:474][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.87 sec (total: 3.39 sec)
+[2025.12.06-22.37.27:478][289]AssetCheck: New page: Asset Save: DKLevel
+[2025.12.06-22.37.27:478][289]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/DKLevel.DKLevel
